@@ -16,5 +16,23 @@
       "7f795a3c3829bb45c6e2d2ad0587c7e039f513a509",
       "7fa94a2c9b7ebcf8874e824d3365d9b9735a7afe34"
     ]
+  },
+  {
+    "xsid_script": "static/chunks/545fbec1adcf6c77.js",
+    "action_script": "/_next/static/chunks/238638301184800c.js",
+    "actions": [
+      "7f072700fc9483155fd64ac7fa1b9fe660e6b8f82e",
+      "7fc0dcbcf6c57c8aa77d8afb06cc3c5010f526fcae",
+      "7f285908eb4918802fc4e0edf14ec9d6e6fb0739bb"
+    ]
+  },
+  {
+    "xsid_script": "static/chunks/9c1d3a2c4c07f41c.js",
+    "action_script": "/_next/static/chunks/a3f3a4c2ede4d654.js",
+    "actions": [
+      "7f02766ee5b26b7761a69c25e6aab22d8a7a02b5df",
+      "7fdb418acc871fb1673d5ab62befd8fe46c679a737",
+      "7faffef69ca20945b952e64ca8f0e8b9cad20f7b19"
+    ]
   }
 ]

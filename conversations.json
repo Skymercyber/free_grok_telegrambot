@@ -1,0 +1,47 @@
+{
+  "8197776341": {
+    "user_id": 8197776341,
+    "username": "Muhammadzufar",
+    "message_count": 3,
+    "last_active": 1766477204.8906367,
+    "retry_count": 0,
+    "last_error": null,
+    "conversation_history": [
+      {
+        "time": 1766477107.981823,
+        "type": "user",
+        "content": "xosh bu hozir test conversatsiya men yangi dasturga grok api sini birkitirdim dastur algoritimi boyi..."
+      },
+      {
+        "time": 1766477130.7159352,
+        "type": "bot",
+        "content": "Tushundim! \n\nSiz yangi dasturingizga Grok API ni integratsiya qildingiz va hozir bu suhbatni \"test c..."
+      },
+      {
+        "time": 1766477147.2215164,
+        "type": "user",
+        "content": "kod 2688"
+      },
+      {
+        "time": 1766477153.757742,
+        "type": "bot",
+        "content": "Tushundim! \"kod 2688\" – bu sizning test jarayonidagi birinchi kod/signalingiz.\n\nMen uni qabul qildim..."
+      },
+      {
+        "time": 1766477181.9373534,
+        "type": "user",
+        "content": "xosh kod nechchi"
+      },
+      {
+        "time": 1766477204.8906295,
+        "type": "bot",
+        "content": "Savol tushunarsiz bo'lib ko'rinmoqda. \"Xosh kod\" deganda nimani nazarda tutyapsiz? Masalan, promo-ko..."
+      }
+    ],
+    "created_at": 1766476798.496613,
+    "modified_at": 1766478968.437079,
+    "conversation_id": "93a55096-8df0-407a-af8e-08ddf3438c88",
+    "parent_response_id": "ae32019d-3fb0-48d3-a8b6-8f1001b1a7c2",
+    "has_conversation_data": true
+  }
+}

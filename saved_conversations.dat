@@ -1,0 +1,59 @@
+{
+  "8197776341": {
+    "user_id": 8197776341,
+    "username": "Muhammadzufar",
+    "message_count": 4,
+    "last_active": 1766479421.3526244,
+    "retry_count": 0,
+    "last_error": null,
+    "conversation_history": [
+      {
+        "time": 1766479127.2135918,
+        "type": "user",
+        "content": "xosh bu hozir test conversatsiya men yangi dasturga grok api sini birkitirdim dastur algoritimi boyi..."
+      },
+      {
+        "time": 1766479146.6118698,
+        "type": "bot",
+        "content": "Tushundim! 😊 \n\nTest conversatsiya rejimidasiz, Grok API ni yangi dasturingizga ulagansiz va hozircha..."
+      },
+      {
+        "time": 1766479209.0070674,
+        "type": "user",
+        "content": "kod nechchi"
+      },
+      {
+        "time": 1766479229.8538642,
+        "type": "bot",
+        "content": "Hozirgi kunda (2025-yil dekabr oyi) **1 AQSh dollari taxminan 12 000 – 12 100 so'm** atrofida.\n\nMasa..."
+      },
+      {
+        "time": 1766479267.929664,
+        "type": "user",
+        "content": "senga boya aytgan kodim nechchi"
+      },
+      {
+        "time": 1766479282.076066,
+        "type": "bot",
+        "content": "Boya aytganimda taxminan **12 000 – 12 100 so'm** oralig'ida bo'lgan edi, lekin hozirgi eng aniq ma'..."
+      },
+      {
+        "time": 1766479407.9220564,
+        "type": "user",
+        "content": "🔄 Yangilash"
+      },
+      {
+        "time": 1766479421.3526177,
+        "type": "bot",
+        "content": "Hozirgi yangilangan ma'lumotga ko'ra (2025-yil 23-dekabr holatiga):\n\n**O'zbekiston Markaziy bankinin..."
+      }
+    ],
+    "created_at": 1766479115.598741,
+    "modified_at": 1766480400.0147405,
+    "conversation_id": "a579834d-4af1-45e6-847a-72e9c4487b6b",
+    "parent_response_id": "e0f00e72-ba51-4701-9c37-ad999c4898d0",
+    "last_response": "Hozirgi yangilangan ma'lumotga ko'ra (2025-yil 23-dekabr holatiga):\n\n**O'zbekiston Markaziy bankining rasmiy kursi: 1 AQSh dollari = 12 010.43 so'm**  \n(O'zgartirish: +14.29 so'm oldingi kunga nisbata...",
+    "conversation_state": "active",
+    "has_conversation": true
+  }
+}

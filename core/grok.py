@@ -50,7 +50,8 @@ class Grok:
             self.session.proxies = {
                 "all": proxy
             }
-    
+        self.debug = True # Debug rejimini yoqish
+
     def _load(self, extra_data: dict = None) -> None:
         
         if not extra_data:
@@ -210,6 +211,18 @@ class Grok:
             }
             
             convo_request: requests.models.Response = self.session.post('https://grok.com/rest/app-chat/conversations/new', json=conversation_data, timeout=9999)
+            convo_request: requests.models.Response = self.session.post(
+                'https://grok.com/rest/app-chat/conversations/new', 
+                json=conversation_data, 
+                timeout=9999
+            )
+        
+            if self.debug:
+                print("\n=== DEBUG RESPONSE ===")
+                print(f"Status Code: {convo_request.status_code}")
+                print(f"Headers: {dict(convo_request.headers)}")
+                print(f"Text (first 500 chars): {convo_request.text[:500]}")
+                print("=== END DEBUG ===\n")
             
             if "modelResponse" in convo_request.text:
                 response = conversation_id = parent_response = image_urls = None
@@ -252,11 +265,17 @@ class Grok:
                     }
                 }
             else:
-                if 'rejected by anti-bot rules' in convo_request.text:
-                    return Grok(self.session.proxies.get("all")).start_convo(message=message, extra_data=extra_data)
-                Log.Error("Something went wrong")
-                Log.Error(convo_request.text)
-                return {"error": convo_request.text}
+                error_text = convo_request.text
+                if 'rejected by anti-bot rules' in error_text:
+                    # mavjud kod
+                    ...
+                elif 'heavy usage' in error_text:
+                    Log.Error("Server yuklangan. Iltimos, keyinroq urinib ko'ring.")
+                    return {"error": "Server busy - heavy usage"}
+                else:
+                    Log.Error("Something went wrong")
+                    Log.Error(error_text)
+                    return {"error": error_text}
         else:
             conversation_data: dict = {
                 'message': message,
